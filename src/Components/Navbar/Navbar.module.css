@@ -1,0 +1,15 @@
+
+
+
+.profileTab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profileTab img{
+    border-radius: 50%;
+}
+.dropdownStyle{
+    top: 85% !important;
+    left: -50px !important;
+}

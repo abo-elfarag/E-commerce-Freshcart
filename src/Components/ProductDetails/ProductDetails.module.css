@@ -1,0 +1,76 @@
+
+
+.arrowContainer{
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arrowContainer i{
+    font-size: 30px;
+}
+.arrowContainerLeft{
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+.arrowContainerLeft i{
+    font-size: 30px;
+}
+
+.modalPrevBtn{
+    height: 70px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+}
+.modalPrevBtn i{
+    font-size: 35px;
+}
+.modalNextBtn{
+    height: 70px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+}
+.modalNextBtn i{
+    font-size: 35px;
+}

@@ -1,0 +1,38 @@
+
+.arrowContainer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arrowContainer i {
+    font-size: 30px;
+
+}
+
+.arrowContainerLeft{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(173, 171, 168);
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+.arrowContainerLeft i{
+    font-size: 30px;
+}
